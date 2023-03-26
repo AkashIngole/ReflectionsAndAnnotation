@@ -15,7 +15,7 @@ public class ReflectionDemo {
     public static void main(String[] args) throws Exception {
 
         //MyClass obj = new MyClass();
-        Class<?> clss = Class.forName("com.basicsstrong.reflection.MyClass");
+        Class<?> clss = Class.forName("com.learning.reflection.MyClass");
         Constructor<?> con = clss.getDeclaredConstructor();
         con.setAccessible(true);
         MyClass newInstance = (MyClass)con.newInstance();

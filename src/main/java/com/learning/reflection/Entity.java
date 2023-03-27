@@ -9,7 +9,7 @@ public class Entity {
         this.type = type;
     }
 
-    public int getVal() {
+    private int getVal() {
         return val;
     }
 
